@@ -335,6 +335,7 @@ header .header-content .header-content-inner p {
     border-color: #fff;
     color: #222;
     background-color: #fff;
+    white-space: normal;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -443,6 +444,7 @@ fieldset[disabled] .btn-primary.active {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
+    white-space: normal;
 }
 
 .btn-xl {
@@ -473,4 +475,11 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+
+@media (max-width : 470px) {
+    .dtu-map{
+        height: 400px;
+        width: 250px;
+    }
 }
