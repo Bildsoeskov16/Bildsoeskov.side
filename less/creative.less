@@ -22,12 +22,27 @@ hr.light {
     border-color: white;
 }
 
+li{
+    font-size: 16px;
+}
+
 a {
     .transition-all;
     color: @theme-primary;
     &:hover,
     &:focus {
         color: darken(@theme-primary, 10%);
+    }
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 470px){
+    .dtu-map{
+        height: 400px;
+        width: 250px;
     }
 }
 
@@ -249,12 +264,11 @@ header {
             top: 50%;
             transform: translateY(-50%);
             .project-category,
-            .project-name {
+            p {
                 .sans-serif-font;
-                padding: 0 15px;
+                padding: 20px 15px;
             }
             .project-category {
-                text-transform: uppercase;
                 font-weight: 600;
                 font-size: 14px;
             }
@@ -313,6 +327,7 @@ header {
     border-radius: 300px;
     font-weight: 700;
     text-transform: uppercase;
+    white-space: normal;
 }
 
 .btn-xl {
