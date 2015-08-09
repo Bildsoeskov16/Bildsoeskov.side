@@ -327,6 +327,9 @@
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                     <p><a href="mailto:bisserup.panda@gmail.com">bisserup.panda@gmail.com</a></p>
                 </div>
+                <div class="col-lg-2 text-center">
+                    <a class="elevator-button btn btn-primary btn-xl page-scroll wow tada">Men vektor jeg vil gerne tage elevatoren til toppen</a>
+                </div>
             </div>
         </div>
     </section>
@@ -341,9 +344,21 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.fittext.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/elevator.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
+    <script>
+    // Elevator script included on the page, already.
+
+    window.onload = function() {
+      var elevator = new Elevator({
+        element: document.querySelector('.elevator-button'),
+        mainAudio: 'audio/elevator.mp3',
+        endAudio: 'audio/ding.mp3'
+      });
+    }
+    </script>
 
 </body>
 

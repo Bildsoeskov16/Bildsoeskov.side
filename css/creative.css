@@ -36,6 +36,10 @@ a:focus {
     color: #eb3812;
 }
 
+a:hover{
+    cursor: pointer;
+}
+
 h1,
 h2,
 h3,
@@ -289,7 +293,7 @@ header .header-content .header-content-inner p {
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content p {
     padding: 20px 15px;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
