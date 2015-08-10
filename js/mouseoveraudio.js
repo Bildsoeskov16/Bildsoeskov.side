@@ -20,7 +20,7 @@ function createsoundbite(sound){
 			html5audio.play()
 		}
 		html5audio.pauseclip=function(){
-			html5audio.pause()
+			//html5audio.pause()
 		}
 		return html5audio
 	}
@@ -29,13 +29,13 @@ function createsoundbite(sound){
 	}
 }
 
-var karloff=createsoundbite("audio/bs.mp3");
-var obeydix=createsoundbite("audio/ding.mp3");
-var ulla=createsoundbite("audio/ding.mp3");
-var wanta=createsoundbite("audio/ding.mp3");
-var phree=createsoundbite("audio/ding.mp3");
-var sheblows=createsoundbite("audio/ding.mp3");
-var aichen=createsoundbite("audio/ding.mp3");
-var lolita=createsoundbite("audio/ding.mp3");
-var lusty=createsoundbite("audio/ding.mp3");
-var darwin=createsoundbite("audio/ding.mp3");
+var karloff=createsoundbite("audio/Karloff.mp3");
+var obeydix=createsoundbite("audio/Obeydix.mp3");
+var ulla=createsoundbite("audio/Ulla.mp3");
+var wanta=createsoundbite("audio/Want_A_Woman.mp3");
+var phree=createsoundbite("audio/Phree.mp3");
+var sheblows=createsoundbite("audio/Sheblows.mp3");
+var aichen=createsoundbite("audio/Aychen.mp3");
+var lolita=createsoundbite("audio/LOLita.mp3");
+var lusty=createsoundbite("audio/Lustyfor.mp3");
+var darwin=createsoundbite("audio/Darwin_dick.mp3");
