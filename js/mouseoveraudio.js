@@ -39,3 +39,4 @@ var aichen=createsoundbite("audio/Aychen.mp3");
 var lolita=createsoundbite("audio/LOLita.mp3");
 var lusty=createsoundbite("audio/Lustyfor.mp3");
 var darwin=createsoundbite("audio/Darwin_Dick.mp3");
+var powerpuff=createsoundbite("audio/Powerpuff.mp3");
