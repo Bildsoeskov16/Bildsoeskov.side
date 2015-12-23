@@ -244,7 +244,7 @@ header .header-content .header-content-inner p {
     header .header-content .header-content-inner {
         margin-right: auto;
         margin-left: auto;
-        max-width: 600px;
+        max-width: 1000px;
     }
 
     header .header-content .header-content-inner p {
@@ -497,9 +497,4 @@ body {
         height: 400px;
         width: 250px;
     }
-}
-
-.center-timer{
-    background-color: rgba(0, 0, 0, 0.41);
-    border-radius: 8px;
 }
